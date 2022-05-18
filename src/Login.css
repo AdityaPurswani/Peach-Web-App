@@ -1,0 +1,32 @@
+
+/* Centering all the elements in the page's middle*/
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    border-width: 300px;
+    border: 1px solid #ff7c4e;
+}
+
+
+.login > div > img{
+    object-fit: contain;
+    height: 150px;
+    border-radius: 999px;
+}
+
+.login> div{
+    display: flex;
+    flex-direction: column;
+}
+
+.login> button{
+    width: 300px;
+    background-color: #ff7c4e;
+    color: #fffbf7;
+    font-weight: bold;
+}
+
+.login> button:hover{ 
+    background-color: black;
+}
